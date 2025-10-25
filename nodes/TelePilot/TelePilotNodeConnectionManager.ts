@@ -228,7 +228,7 @@ export class TelePilotNodeConnectionManager {
 
 // @ts-ignore
 	private locateBinaryModules() {
-		let _lib_prebuilt_package = "tdlib-binaries-prebuilt/prebuilds/";
+		let _lib_prebuilt_package = "@telepilotco/tdlib-binaries-prebuilt/prebuilds/";
 
 		let libFile = "";
 		const libFolder = __dirname + "/../../../../" + _lib_prebuilt_package;

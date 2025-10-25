@@ -189,7 +189,7 @@ let TelePilotNodeConnectionManager = class TelePilotNodeConnectionManager {
         }
     }
     locateBinaryModules() {
-        let _lib_prebuilt_package = "tdlib-binaries-prebuilt/prebuilds/";
+        let _lib_prebuilt_package = "@telepilotco/tdlib-binaries-prebuilt/prebuilds/";
         let libFile = "";
         const libFolder = __dirname + "/../../../../" + _lib_prebuilt_package;
         if (process.arch === "x64") {
