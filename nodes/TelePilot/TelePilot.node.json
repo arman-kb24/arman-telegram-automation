@@ -1,0 +1,18 @@
+{
+	"node": "arman-telegram-automation.ArmanTelegram",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://github.com/arman/n8n-nodes-telegram-automation"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/arman/n8n-nodes-telegram-automation"
+			}
+		]
+	}
+}
