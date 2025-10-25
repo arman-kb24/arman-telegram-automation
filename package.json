@@ -29,7 +29,6 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc && npx gulp build:icons",
-    "postinstall": "npm run build",
     "dev": "tsc --watch",
     "format": "prettier nodes credentials --write",
     "lint": "eslint nodes credentials",
